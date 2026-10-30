@@ -2,7 +2,7 @@
 
 A hackathon-sized demo for the talk *Desarrollo Competitivo* (NASA Space Apps Challenge) by Emanuel Guzman.
 
-**Live demo:** https://emanuel250yt.github.io/space-apps-fire-risk/
+**Live demo:** https://emanuel250.dev.ar/space-apps-fire-risk/
 
 It applies the talk's advice in a few hundred lines:
 
