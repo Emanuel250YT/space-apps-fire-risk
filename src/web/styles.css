@@ -1,0 +1,250 @@
+/*
+ * The Stellar Snap look (snap.cosmospay.lat): a white canvas, ink outlines,
+ * a lime highlighter and Open Sauce One (SIL OFL 1.1, Latin subset).
+ */
+@font-face {
+  font-family: 'Open Sauce One';
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/open-sauce-one-300.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sauce One';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/open-sauce-one-400.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sauce One';
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/open-sauce-one-700.woff') format('woff');
+}
+
+:root {
+  --bg: #ffffff;
+  --text: #13131a;
+  /* 7:1 on white. */
+  --muted: #555561;
+  --border: #e7e7ec;
+  --highlight: #e2ff3d;
+  --danger: #e5484d;
+  --font-body: 'Open Sauce One', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace;
+
+  color-scheme: light;
+  font-family: var(--font-body);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 3px;
+}
+
+.page {
+  display: grid;
+  gap: 40px;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 64px 24px 96px;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--highlight);
+  box-shadow: 0 0 0 1.5px var(--text);
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 6vw, 3.4rem);
+  font-weight: 300;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+/* Highlighter over the lower half of the words. */
+h1 mark {
+  padding: 0 0.06em;
+  background: linear-gradient(transparent 52%, var(--highlight) 52% 94%, transparent 94%);
+  color: inherit;
+  font-weight: 700;
+}
+
+.lead {
+  max-width: 480px;
+  margin: 20px 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.label {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.place {
+  padding: 12px 20px;
+  border: 1.5px solid var(--text);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+.place:hover {
+  background: var(--highlight);
+}
+.place[aria-pressed='true'] {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.card {
+  display: grid;
+  gap: 24px;
+  padding: 28px;
+  border: 1.5px solid var(--text);
+  border-radius: 20px;
+}
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+.card h2 {
+  margin: 4px 0 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.muted {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* The level is always written out; the fill only reinforces it. */
+.level {
+  margin: 0;
+  padding: 8px 16px;
+  border: 1.5px solid var(--text);
+  border-radius: 999px;
+  font-weight: 700;
+}
+.level-high {
+  background: var(--highlight);
+}
+/* Moderate: the outlined pill with the lime dot the site uses for bullets. */
+.level-moderate::before {
+  content: '';
+  content: '' / '';
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: var(--highlight);
+  box-shadow: 0 0 0 1.5px var(--text);
+}
+
+.score {
+  margin: 0;
+  color: var(--muted);
+}
+.score strong {
+  margin-right: 6px;
+  color: var(--text);
+  font-size: 2.6rem;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.factors {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.factors li {
+  display: grid;
+  grid-template-columns: 1fr auto 3.5rem;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+}
+.factors span:first-child {
+  color: var(--muted);
+}
+.points {
+  justify-self: end;
+  padding: 2px 10px;
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+.points-on {
+  border-color: var(--text);
+  background: var(--highlight);
+}
+
+.source,
+.footer {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+.footer {
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.source a,
+.footer a {
+  color: var(--text);
+  text-underline-offset: 3px;
+}
+
+.hint,
+.error {
+  margin: 0;
+  color: var(--muted);
+}
+.error {
+  padding-left: 12px;
+  border-left: 4px solid var(--danger);
+  color: var(--text);
+}

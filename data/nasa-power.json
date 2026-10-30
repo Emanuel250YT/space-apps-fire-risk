@@ -1,0 +1,859 @@
+{
+  "source": "NASA POWER",
+  "sourceUrl": "https://power.larc.nasa.gov/",
+  "fetchedAt": "2026-10-30T18:46:39.736Z",
+  "places": {
+    "oran": [
+      {
+        "date": "2026-10-08",
+        "maxTemperatureC": 27.67,
+        "humidityPercent": 77.21,
+        "precipitationMm": 16.9,
+        "windSpeedMs": 1.46
+      },
+      {
+        "date": "2026-10-09",
+        "maxTemperatureC": 24.29,
+        "humidityPercent": 76.49,
+        "precipitationMm": 2.91,
+        "windSpeedMs": 1.51
+      },
+      {
+        "date": "2026-10-10",
+        "maxTemperatureC": 21.77,
+        "humidityPercent": 71.8,
+        "precipitationMm": 1.72,
+        "windSpeedMs": 1.16
+      },
+      {
+        "date": "2026-10-11",
+        "maxTemperatureC": 23.33,
+        "humidityPercent": 68.96,
+        "precipitationMm": 0.86,
+        "windSpeedMs": 1.04
+      },
+      {
+        "date": "2026-10-12",
+        "maxTemperatureC": 24.26,
+        "humidityPercent": 75.81,
+        "precipitationMm": 1.74,
+        "windSpeedMs": 0.99
+      },
+      {
+        "date": "2026-10-13",
+        "maxTemperatureC": 24.05,
+        "humidityPercent": 79.95,
+        "precipitationMm": 3.99,
+        "windSpeedMs": 1.02
+      },
+      {
+        "date": "2026-10-14",
+        "maxTemperatureC": 22.27,
+        "humidityPercent": 80.03,
+        "precipitationMm": 4.03,
+        "windSpeedMs": 1.16
+      },
+      {
+        "date": "2026-10-15",
+        "maxTemperatureC": 20.15,
+        "humidityPercent": 80.76,
+        "precipitationMm": 4.98,
+        "windSpeedMs": 0.97
+      },
+      {
+        "date": "2026-10-16",
+        "maxTemperatureC": 22.45,
+        "humidityPercent": 72.38,
+        "precipitationMm": 2.55,
+        "windSpeedMs": 0.77
+      },
+      {
+        "date": "2026-10-17",
+        "maxTemperatureC": 24.11,
+        "humidityPercent": 57.94,
+        "precipitationMm": 0.08,
+        "windSpeedMs": 1.07
+      },
+      {
+        "date": "2026-10-18",
+        "maxTemperatureC": 20.85,
+        "humidityPercent": 68.63,
+        "precipitationMm": 1.2,
+        "windSpeedMs": 1.12
+      },
+      {
+        "date": "2026-10-19",
+        "maxTemperatureC": 25.1,
+        "humidityPercent": 66.96,
+        "precipitationMm": 0.74,
+        "windSpeedMs": 1.03
+      },
+      {
+        "date": "2026-10-20",
+        "maxTemperatureC": 27.65,
+        "humidityPercent": 62.17,
+        "precipitationMm": 0.12,
+        "windSpeedMs": 1.26
+      },
+      {
+        "date": "2026-10-21",
+        "maxTemperatureC": 32.8,
+        "humidityPercent": 59,
+        "precipitationMm": 2.63,
+        "windSpeedMs": 0.96
+      },
+      {
+        "date": "2026-10-22",
+        "maxTemperatureC": 35.22,
+        "humidityPercent": 53.57,
+        "precipitationMm": 2.46,
+        "windSpeedMs": 0.96
+      },
+      {
+        "date": "2026-10-23",
+        "maxTemperatureC": 34.69,
+        "humidityPercent": 57.64,
+        "precipitationMm": 3.7,
+        "windSpeedMs": 0.95
+      },
+      {
+        "date": "2026-10-24",
+        "maxTemperatureC": 25.93,
+        "humidityPercent": 79.94,
+        "precipitationMm": 7.5,
+        "windSpeedMs": 1.52
+      },
+      {
+        "date": "2026-10-25",
+        "maxTemperatureC": 22.96,
+        "humidityPercent": 61.16,
+        "precipitationMm": 0.42,
+        "windSpeedMs": 1.32
+      },
+      {
+        "date": "2026-10-26",
+        "maxTemperatureC": 24.32,
+        "humidityPercent": 55.36,
+        "precipitationMm": 0.01,
+        "windSpeedMs": 1.09
+      },
+      {
+        "date": "2026-10-27",
+        "maxTemperatureC": 27.35,
+        "humidityPercent": 57,
+        "precipitationMm": 0.05,
+        "windSpeedMs": 1.22
+      }
+    ],
+    "rivadavia": [
+      {
+        "date": "2026-10-08",
+        "maxTemperatureC": 29.88,
+        "humidityPercent": 69.92,
+        "precipitationMm": 5.38,
+        "windSpeedMs": 1.66
+      },
+      {
+        "date": "2026-10-09",
+        "maxTemperatureC": 25.75,
+        "humidityPercent": 72.45,
+        "precipitationMm": 8.55,
+        "windSpeedMs": 1.77
+      },
+      {
+        "date": "2026-10-10",
+        "maxTemperatureC": 26.33,
+        "humidityPercent": 62.93,
+        "precipitationMm": 0.05,
+        "windSpeedMs": 1.05
+      },
+      {
+        "date": "2026-10-11",
+        "maxTemperatureC": 27.24,
+        "humidityPercent": 61.75,
+        "precipitationMm": 0.14,
+        "windSpeedMs": 0.81
+      },
+      {
+        "date": "2026-10-12",
+        "maxTemperatureC": 28.71,
+        "humidityPercent": 66.28,
+        "precipitationMm": 0.73,
+        "windSpeedMs": 0.86
+      },
+      {
+        "date": "2026-10-13",
+        "maxTemperatureC": 30.44,
+        "humidityPercent": 63.96,
+        "precipitationMm": 0.64,
+        "windSpeedMs": 0.87
+      },
+      {
+        "date": "2026-10-14",
+        "maxTemperatureC": 28.47,
+        "humidityPercent": 62.6,
+        "precipitationMm": 0.63,
+        "windSpeedMs": 1.44
+      },
+      {
+        "date": "2026-10-15",
+        "maxTemperatureC": 24.44,
+        "humidityPercent": 62.59,
+        "precipitationMm": 0.44,
+        "windSpeedMs": 1.34
+      },
+      {
+        "date": "2026-10-16",
+        "maxTemperatureC": 29.62,
+        "humidityPercent": 53.54,
+        "precipitationMm": 0.04,
+        "windSpeedMs": 0.82
+      },
+      {
+        "date": "2026-10-17",
+        "maxTemperatureC": 29.39,
+        "humidityPercent": 47.29,
+        "precipitationMm": 0.02,
+        "windSpeedMs": 0.99
+      },
+      {
+        "date": "2026-10-18",
+        "maxTemperatureC": 25.73,
+        "humidityPercent": 52.59,
+        "precipitationMm": 0.03,
+        "windSpeedMs": 1.05
+      },
+      {
+        "date": "2026-10-19",
+        "maxTemperatureC": 27.96,
+        "humidityPercent": 49.3,
+        "precipitationMm": 0.02,
+        "windSpeedMs": 1.21
+      },
+      {
+        "date": "2026-10-20",
+        "maxTemperatureC": 32.35,
+        "humidityPercent": 49.12,
+        "precipitationMm": 0.01,
+        "windSpeedMs": 1.53
+      },
+      {
+        "date": "2026-10-21",
+        "maxTemperatureC": 37.82,
+        "humidityPercent": 50.94,
+        "precipitationMm": 0.46,
+        "windSpeedMs": 1
+      },
+      {
+        "date": "2026-10-22",
+        "maxTemperatureC": 40.34,
+        "humidityPercent": 49.81,
+        "precipitationMm": 2.15,
+        "windSpeedMs": 1.34
+      },
+      {
+        "date": "2026-10-23",
+        "maxTemperatureC": 39.89,
+        "humidityPercent": 53.95,
+        "precipitationMm": 2.08,
+        "windSpeedMs": 0.71
+      },
+      {
+        "date": "2026-10-24",
+        "maxTemperatureC": 28.91,
+        "humidityPercent": 68.03,
+        "precipitationMm": 2.89,
+        "windSpeedMs": 2.27
+      },
+      {
+        "date": "2026-10-25",
+        "maxTemperatureC": 27.61,
+        "humidityPercent": 52.11,
+        "precipitationMm": 0.34,
+        "windSpeedMs": 1.85
+      },
+      {
+        "date": "2026-10-26",
+        "maxTemperatureC": 29.58,
+        "humidityPercent": 47.9,
+        "precipitationMm": 0,
+        "windSpeedMs": 0.89
+      },
+      {
+        "date": "2026-10-27",
+        "maxTemperatureC": 32.15,
+        "humidityPercent": 43.95,
+        "precipitationMm": 0,
+        "windSpeedMs": 1.38
+      }
+    ],
+    "salta": [
+      {
+        "date": "2026-10-08",
+        "maxTemperatureC": 19.71,
+        "humidityPercent": 80.06,
+        "precipitationMm": 7.44,
+        "windSpeedMs": 2.06
+      },
+      {
+        "date": "2026-10-09",
+        "maxTemperatureC": 21.24,
+        "humidityPercent": 73.14,
+        "precipitationMm": 2.21,
+        "windSpeedMs": 2.22
+      },
+      {
+        "date": "2026-10-10",
+        "maxTemperatureC": 15.01,
+        "humidityPercent": 79.84,
+        "precipitationMm": 2.83,
+        "windSpeedMs": 2.36
+      },
+      {
+        "date": "2026-10-11",
+        "maxTemperatureC": 17.26,
+        "humidityPercent": 78.92,
+        "precipitationMm": 1.85,
+        "windSpeedMs": 2.21
+      },
+      {
+        "date": "2026-10-12",
+        "maxTemperatureC": 20.14,
+        "humidityPercent": 69.23,
+        "precipitationMm": 2.24,
+        "windSpeedMs": 1.53
+      },
+      {
+        "date": "2026-10-13",
+        "maxTemperatureC": 21.82,
+        "humidityPercent": 70.41,
+        "precipitationMm": 3.19,
+        "windSpeedMs": 1.69
+      },
+      {
+        "date": "2026-10-14",
+        "maxTemperatureC": 16.81,
+        "humidityPercent": 82.65,
+        "precipitationMm": 9.87,
+        "windSpeedMs": 2.33
+      },
+      {
+        "date": "2026-10-15",
+        "maxTemperatureC": 8.97,
+        "humidityPercent": 90.25,
+        "precipitationMm": 12.24,
+        "windSpeedMs": 2.38
+      },
+      {
+        "date": "2026-10-16",
+        "maxTemperatureC": 11.39,
+        "humidityPercent": 86.23,
+        "precipitationMm": 7.09,
+        "windSpeedMs": 2.13
+      },
+      {
+        "date": "2026-10-17",
+        "maxTemperatureC": 12.08,
+        "humidityPercent": 85.24,
+        "precipitationMm": 7.65,
+        "windSpeedMs": 2.14
+      },
+      {
+        "date": "2026-10-18",
+        "maxTemperatureC": 11.68,
+        "humidityPercent": 87.84,
+        "precipitationMm": 8.17,
+        "windSpeedMs": 2.3
+      },
+      {
+        "date": "2026-10-19",
+        "maxTemperatureC": 16.68,
+        "humidityPercent": 78.13,
+        "precipitationMm": 1.53,
+        "windSpeedMs": 2.08
+      },
+      {
+        "date": "2026-10-20",
+        "maxTemperatureC": 23.07,
+        "humidityPercent": 66.22,
+        "precipitationMm": 0.67,
+        "windSpeedMs": 1.64
+      },
+      {
+        "date": "2026-10-21",
+        "maxTemperatureC": 25.89,
+        "humidityPercent": 51.57,
+        "precipitationMm": 1.35,
+        "windSpeedMs": 1.43
+      },
+      {
+        "date": "2026-10-22",
+        "maxTemperatureC": 28.59,
+        "humidityPercent": 56.9,
+        "precipitationMm": 1.23,
+        "windSpeedMs": 1.29
+      },
+      {
+        "date": "2026-10-23",
+        "maxTemperatureC": 27.26,
+        "humidityPercent": 65.67,
+        "precipitationMm": 1.6,
+        "windSpeedMs": 1.65
+      },
+      {
+        "date": "2026-10-24",
+        "maxTemperatureC": 21.43,
+        "humidityPercent": 79.15,
+        "precipitationMm": 4.97,
+        "windSpeedMs": 2.15
+      },
+      {
+        "date": "2026-10-25",
+        "maxTemperatureC": 9.91,
+        "humidityPercent": 85.16,
+        "precipitationMm": 6.37,
+        "windSpeedMs": 2.39
+      },
+      {
+        "date": "2026-10-26",
+        "maxTemperatureC": 16.41,
+        "humidityPercent": 75.28,
+        "precipitationMm": 0.56,
+        "windSpeedMs": 2.09
+      },
+      {
+        "date": "2026-10-27",
+        "maxTemperatureC": 20.54,
+        "humidityPercent": 64.05,
+        "precipitationMm": 13.43,
+        "windSpeedMs": 2.01
+      }
+    ],
+    "anta": [
+      {
+        "date": "2026-10-08",
+        "maxTemperatureC": 25.01,
+        "humidityPercent": 72.81,
+        "precipitationMm": 4.48,
+        "windSpeedMs": 2.77
+      },
+      {
+        "date": "2026-10-09",
+        "maxTemperatureC": 22.06,
+        "humidityPercent": 72.1,
+        "precipitationMm": 1.36,
+        "windSpeedMs": 2.25
+      },
+      {
+        "date": "2026-10-10",
+        "maxTemperatureC": 22.07,
+        "humidityPercent": 63.98,
+        "precipitationMm": 0.42,
+        "windSpeedMs": 1.41
+      },
+      {
+        "date": "2026-10-11",
+        "maxTemperatureC": 22.91,
+        "humidityPercent": 65.98,
+        "precipitationMm": 0.75,
+        "windSpeedMs": 1.07
+      },
+      {
+        "date": "2026-10-12",
+        "maxTemperatureC": 22.85,
+        "humidityPercent": 76.54,
+        "precipitationMm": 4.19,
+        "windSpeedMs": 1.29
+      },
+      {
+        "date": "2026-10-13",
+        "maxTemperatureC": 25.11,
+        "humidityPercent": 72.61,
+        "precipitationMm": 1.87,
+        "windSpeedMs": 1.41
+      },
+      {
+        "date": "2026-10-14",
+        "maxTemperatureC": 20.18,
+        "humidityPercent": 80.29,
+        "precipitationMm": 5.2,
+        "windSpeedMs": 2.19
+      },
+      {
+        "date": "2026-10-15",
+        "maxTemperatureC": 18.7,
+        "humidityPercent": 79.65,
+        "precipitationMm": 6.2,
+        "windSpeedMs": 1.69
+      },
+      {
+        "date": "2026-10-16",
+        "maxTemperatureC": 24.26,
+        "humidityPercent": 61.99,
+        "precipitationMm": 0.15,
+        "windSpeedMs": 0.88
+      },
+      {
+        "date": "2026-10-17",
+        "maxTemperatureC": 24.72,
+        "humidityPercent": 53.52,
+        "precipitationMm": 0.05,
+        "windSpeedMs": 1.34
+      },
+      {
+        "date": "2026-10-18",
+        "maxTemperatureC": 21.34,
+        "humidityPercent": 58.53,
+        "precipitationMm": 0.19,
+        "windSpeedMs": 1.21
+      },
+      {
+        "date": "2026-10-19",
+        "maxTemperatureC": 25.68,
+        "humidityPercent": 52.96,
+        "precipitationMm": 0.06,
+        "windSpeedMs": 1.73
+      },
+      {
+        "date": "2026-10-20",
+        "maxTemperatureC": 30.27,
+        "humidityPercent": 53.51,
+        "precipitationMm": 0.03,
+        "windSpeedMs": 2.07
+      },
+      {
+        "date": "2026-10-21",
+        "maxTemperatureC": 34.06,
+        "humidityPercent": 54.94,
+        "precipitationMm": 0.28,
+        "windSpeedMs": 1.35
+      },
+      {
+        "date": "2026-10-22",
+        "maxTemperatureC": 37.15,
+        "humidityPercent": 48.32,
+        "precipitationMm": 0.98,
+        "windSpeedMs": 1.34
+      },
+      {
+        "date": "2026-10-23",
+        "maxTemperatureC": 31.68,
+        "humidityPercent": 62.62,
+        "precipitationMm": 5.55,
+        "windSpeedMs": 1.95
+      },
+      {
+        "date": "2026-10-24",
+        "maxTemperatureC": 23.16,
+        "humidityPercent": 75.89,
+        "precipitationMm": 5.15,
+        "windSpeedMs": 2.91
+      },
+      {
+        "date": "2026-10-25",
+        "maxTemperatureC": 21.9,
+        "humidityPercent": 59.92,
+        "precipitationMm": 0.09,
+        "windSpeedMs": 1.88
+      },
+      {
+        "date": "2026-10-26",
+        "maxTemperatureC": 25.51,
+        "humidityPercent": 51.85,
+        "precipitationMm": 0,
+        "windSpeedMs": 1.51
+      },
+      {
+        "date": "2026-10-27",
+        "maxTemperatureC": 30.16,
+        "humidityPercent": 47.17,
+        "precipitationMm": 0.08,
+        "windSpeedMs": 1.67
+      }
+    ],
+    "cachi": [
+      {
+        "date": "2026-10-08",
+        "maxTemperatureC": 18.84,
+        "humidityPercent": 18.16,
+        "precipitationMm": 0.2,
+        "windSpeedMs": 1.75
+      },
+      {
+        "date": "2026-10-09",
+        "maxTemperatureC": 17.85,
+        "humidityPercent": 18.04,
+        "precipitationMm": 0.02,
+        "windSpeedMs": 2.2
+      },
+      {
+        "date": "2026-10-10",
+        "maxTemperatureC": 19.24,
+        "humidityPercent": 22.04,
+        "precipitationMm": 0.1,
+        "windSpeedMs": 1.03
+      },
+      {
+        "date": "2026-10-11",
+        "maxTemperatureC": 19.3,
+        "humidityPercent": 23.45,
+        "precipitationMm": 0.03,
+        "windSpeedMs": 1.89
+      },
+      {
+        "date": "2026-10-12",
+        "maxTemperatureC": 12.64,
+        "humidityPercent": 37.99,
+        "precipitationMm": 0.64,
+        "windSpeedMs": 2.94
+      },
+      {
+        "date": "2026-10-13",
+        "maxTemperatureC": 13.37,
+        "humidityPercent": 36.41,
+        "precipitationMm": 0.13,
+        "windSpeedMs": 2.98
+      },
+      {
+        "date": "2026-10-14",
+        "maxTemperatureC": 15.95,
+        "humidityPercent": 36.53,
+        "precipitationMm": 0.27,
+        "windSpeedMs": 1.95
+      },
+      {
+        "date": "2026-10-15",
+        "maxTemperatureC": 16.6,
+        "humidityPercent": 42.61,
+        "precipitationMm": 0.45,
+        "windSpeedMs": 1.11
+      },
+      {
+        "date": "2026-10-16",
+        "maxTemperatureC": 18.45,
+        "humidityPercent": 38.74,
+        "precipitationMm": 0.31,
+        "windSpeedMs": 0.94
+      },
+      {
+        "date": "2026-10-17",
+        "maxTemperatureC": 18.75,
+        "humidityPercent": 37.85,
+        "precipitationMm": 0.32,
+        "windSpeedMs": 1.32
+      },
+      {
+        "date": "2026-10-18",
+        "maxTemperatureC": 18.93,
+        "humidityPercent": 29.29,
+        "precipitationMm": 0.25,
+        "windSpeedMs": 0.82
+      },
+      {
+        "date": "2026-10-19",
+        "maxTemperatureC": 19.03,
+        "humidityPercent": 26.22,
+        "precipitationMm": 0.02,
+        "windSpeedMs": 1.79
+      },
+      {
+        "date": "2026-10-20",
+        "maxTemperatureC": 19.34,
+        "humidityPercent": 18.75,
+        "precipitationMm": 0.01,
+        "windSpeedMs": 2.54
+      },
+      {
+        "date": "2026-10-21",
+        "maxTemperatureC": 21.29,
+        "humidityPercent": 18.54,
+        "precipitationMm": 0.05,
+        "windSpeedMs": 1.96
+      },
+      {
+        "date": "2026-10-22",
+        "maxTemperatureC": 21.58,
+        "humidityPercent": 16.88,
+        "precipitationMm": 0.02,
+        "windSpeedMs": 2.29
+      },
+      {
+        "date": "2026-10-23",
+        "maxTemperatureC": 22.05,
+        "humidityPercent": 22.59,
+        "precipitationMm": 0.05,
+        "windSpeedMs": 2.31
+      },
+      {
+        "date": "2026-10-24",
+        "maxTemperatureC": 19.46,
+        "humidityPercent": 26.86,
+        "precipitationMm": 0.05,
+        "windSpeedMs": 2.37
+      },
+      {
+        "date": "2026-10-25",
+        "maxTemperatureC": 19.97,
+        "humidityPercent": 26.09,
+        "precipitationMm": 0.27,
+        "windSpeedMs": 1.28
+      },
+      {
+        "date": "2026-10-26",
+        "maxTemperatureC": 21.11,
+        "humidityPercent": 22.93,
+        "precipitationMm": 0.02,
+        "windSpeedMs": 1.44
+      },
+      {
+        "date": "2026-10-27",
+        "maxTemperatureC": 19.06,
+        "humidityPercent": 40.32,
+        "precipitationMm": 2.17,
+        "windSpeedMs": 2.25
+      }
+    ],
+    "cafayate": [
+      {
+        "date": "2026-10-08",
+        "maxTemperatureC": 19.69,
+        "humidityPercent": 26.25,
+        "precipitationMm": 0.39,
+        "windSpeedMs": 2.39
+      },
+      {
+        "date": "2026-10-09",
+        "maxTemperatureC": 19.78,
+        "humidityPercent": 32.64,
+        "precipitationMm": 0.11,
+        "windSpeedMs": 1.87
+      },
+      {
+        "date": "2026-10-10",
+        "maxTemperatureC": 18.82,
+        "humidityPercent": 39.72,
+        "precipitationMm": 0.5,
+        "windSpeedMs": 1.87
+      },
+      {
+        "date": "2026-10-11",
+        "maxTemperatureC": 19.79,
+        "humidityPercent": 34.03,
+        "precipitationMm": 0.37,
+        "windSpeedMs": 1.37
+      },
+      {
+        "date": "2026-10-12",
+        "maxTemperatureC": 15.94,
+        "humidityPercent": 33.33,
+        "precipitationMm": 0.14,
+        "windSpeedMs": 2.08
+      },
+      {
+        "date": "2026-10-13",
+        "maxTemperatureC": 16.61,
+        "humidityPercent": 30.61,
+        "precipitationMm": 0.16,
+        "windSpeedMs": 2.35
+      },
+      {
+        "date": "2026-10-14",
+        "maxTemperatureC": 15.61,
+        "humidityPercent": 43.52,
+        "precipitationMm": 2.07,
+        "windSpeedMs": 1.95
+      },
+      {
+        "date": "2026-10-15",
+        "maxTemperatureC": 11.41,
+        "humidityPercent": 62.11,
+        "precipitationMm": 1.71,
+        "windSpeedMs": 1.84
+      },
+      {
+        "date": "2026-10-16",
+        "maxTemperatureC": 14.47,
+        "humidityPercent": 55.82,
+        "precipitationMm": 0.35,
+        "windSpeedMs": 1.7
+      },
+      {
+        "date": "2026-10-17",
+        "maxTemperatureC": 16.7,
+        "humidityPercent": 55.31,
+        "precipitationMm": 0.48,
+        "windSpeedMs": 1.9
+      },
+      {
+        "date": "2026-10-18",
+        "maxTemperatureC": 16.34,
+        "humidityPercent": 45.81,
+        "precipitationMm": 0.43,
+        "windSpeedMs": 1.74
+      },
+      {
+        "date": "2026-10-19",
+        "maxTemperatureC": 20.12,
+        "humidityPercent": 41.36,
+        "precipitationMm": 0.14,
+        "windSpeedMs": 1.83
+      },
+      {
+        "date": "2026-10-20",
+        "maxTemperatureC": 20.96,
+        "humidityPercent": 27.74,
+        "precipitationMm": 0.07,
+        "windSpeedMs": 2.45
+      },
+      {
+        "date": "2026-10-21",
+        "maxTemperatureC": 22.59,
+        "humidityPercent": 25.19,
+        "precipitationMm": 0.1,
+        "windSpeedMs": 2.08
+      },
+      {
+        "date": "2026-10-22",
+        "maxTemperatureC": 23.88,
+        "humidityPercent": 26.68,
+        "precipitationMm": 0.1,
+        "windSpeedMs": 1.88
+      },
+      {
+        "date": "2026-10-23",
+        "maxTemperatureC": 24.6,
+        "humidityPercent": 22.68,
+        "precipitationMm": 0.29,
+        "windSpeedMs": 1.68
+      },
+      {
+        "date": "2026-10-24",
+        "maxTemperatureC": 21.9,
+        "humidityPercent": 25.85,
+        "precipitationMm": 0.14,
+        "windSpeedMs": 1.75
+      },
+      {
+        "date": "2026-10-25",
+        "maxTemperatureC": 17.29,
+        "humidityPercent": 50.03,
+        "precipitationMm": 0.34,
+        "windSpeedMs": 2.48
+      },
+      {
+        "date": "2026-10-26",
+        "maxTemperatureC": 21.73,
+        "humidityPercent": 40.28,
+        "precipitationMm": 0.03,
+        "windSpeedMs": 1.6
+      },
+      {
+        "date": "2026-10-27",
+        "maxTemperatureC": 20.68,
+        "humidityPercent": 48.87,
+        "precipitationMm": 17.25,
+        "windSpeedMs": 2.26
+      }
+    ]
+  }
+}
