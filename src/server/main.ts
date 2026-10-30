@@ -18,8 +18,21 @@ const CONTENT_TYPES: Record<string, string> = {
   '.svg': 'image/svg+xml',
 };
 
+function decodePathname(rawUrl: string): string | null {
+  try {
+    return decodeURIComponent(new URL(rawUrl, 'http://localhost').pathname);
+  } catch {
+    // A malformed escape such as "%E0%A4%A" or an unparsable URL such as "//".
+    return null;
+  }
+}
+
 function serveStatic(rawUrl: string, res: ServerResponse): void {
-  const pathname = decodeURIComponent(new URL(rawUrl, 'http://localhost').pathname);
+  const pathname = decodePathname(rawUrl);
+  if (pathname === null) {
+    res.writeHead(400).end();
+    return;
+  }
   let file = resolve(DIST_DIR, `.${pathname}`);
   // resolve() collapses "..", so anything outside dist/ is a request we refuse.
   if (file !== DIST_DIR && !file.startsWith(DIST_DIR + sep)) {
@@ -34,11 +47,20 @@ function serveStatic(rawUrl: string, res: ServerResponse): void {
   }
 
   res.writeHead(200, { 'Content-Type': CONTENT_TYPES[extname(file)] ?? 'application/octet-stream' });
-  createReadStream(file).pipe(res);
+  createReadStream(file)
+    .on('error', () => res.destroy())
+    .pipe(res);
 }
 
 createServer((req, res) => {
-  if (!handleApi(req, res)) serveStatic(req.url ?? '/', res);
+  // One bad request must never take the demo down: answer 500 instead of crashing the process.
+  try {
+    if (!handleApi(req, res)) serveStatic(req.url ?? '/', res);
+  } catch (error) {
+    console.error('Request failed:', req.url, error);
+    if (!res.headersSent) res.writeHead(500);
+    res.end();
+  }
 }).listen(PORT, () => {
   console.log(`Fire risk demo on http://localhost:${PORT}`);
 });
